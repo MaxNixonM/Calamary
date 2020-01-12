@@ -1,7 +1,7 @@
 {
     "autoload":{
         "psr-4": {
-            "calamary\\": "vender/calamary",
+            "calamary\\": "vendor/calamary/core",
             "app\\": "app"
         }
     },
