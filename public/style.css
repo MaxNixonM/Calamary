@@ -1,3 +1,66 @@
 .navbar-nav li {
     padding-right: 50px;
 }
+#menuButton1{
+    background-image: url(image/menuButtonImage1.jpg);
+    background-size: 100%;
+    background-origin: content-box;
+    background-position: 50% 20%;
+    background-clip: padding-box;
+}
+#menuButton2{
+    background-image: url(image/menuButtonImage2.png);
+    background-size: auto;
+    background-origin: content-box;
+    background-position: center;
+    background-clip: padding-box;
+}
+div.menuWrap:hover #menuButton1{
+    background-image: none;
+}
+div.menuWrap:hover #menuButton2{
+    background-image: none;
+}
+button.mmenu {
+    width: 100%;
+    border: 2px solid black;
+}
+div.menuWrap:hover button.mmenu{
+    border-right: 0px;
+    border-left: 0px;
+}
+div.menuWrap{
+    border: 0px;
+    padding-top: 0%;
+    transition: .5s;
+}
+div.menuWrap:hover{
+    border: 2px solid black;
+    padding-top: 5%;
+    border-radius: 10px;
+    background-color: gray;
+}
+#menuButton1Wrap{
+  background-size: 90% auto;
+  background-origin: content-box;
+  background-position: 50% 20%;
+  background-clip: padding-box;
+}
+#menuButton2Wrap{
+  background-size: auto;
+  background-origin: content-box;
+  background-position: center;
+  background-clip: padding-box;
+}
+#menuButton1Wrap:hover{
+    background-image: url(image/menuButtonImage1.jpg);
+}
+#menuButton2Wrap:hover{
+    background-image: url(image/menuButtonImage2.png);
+}
+div.menuText{
+    display: none;
+}
+div.menuWrap:hover div.menuText{
+    display: block;
+}
